@@ -6,6 +6,8 @@ import CadastroTipoAula from './pages/CadastroTipoAula';
 import CadastroAula from './pages/CadastroAula';
 import CadastroContas from './pages/CadastroContas';
 import Relatorio from './pages/Relatorio';
+import AgendaAulas from './pages/AgendaAulas';
+import ConsultaContas from './pages/ConsultaContas';
 
 const Routes = createAppContainer(
   createSwitchNavigator({
@@ -15,6 +17,8 @@ const Routes = createAppContainer(
     CadastroAluno,
     CadastroContas,
     Relatorio,
+    AgendaAulas,
+    ConsultaContas,
   })
 );
 
